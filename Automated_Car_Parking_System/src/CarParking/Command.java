@@ -5,6 +5,12 @@ import Exceptions.NoEmptySlotAvailable;
 import Exceptions.RegistractionNumberNotFoundException;
 import Interface.CommandInterface;
 
+/**
+ * 
+ * @author poomalark
+ *
+ */
+
 public enum Command implements CommandInterface {
 	parking_slot {
 		public void runCommand(String[] details) {

@@ -6,6 +6,11 @@ import Exceptions.ColourNotFoundException;
 import Exceptions.NoEmptySlotAvailable;
 import Exceptions.RegistractionNumberNotFoundException;
 
+/**
+ * 
+ * @author poomalark
+ *
+ */
 public class Parking {
 
 	private static Parking parkingLot;

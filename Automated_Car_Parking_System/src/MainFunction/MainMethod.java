@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.util.Scanner;
 import CarParking.Command;
 
+/**
+ * 
+ * @author poomalark
+ *
+ */
 public class MainMethod {
 	
 	public static void main(String[] args) throws IOException{
@@ -27,7 +32,7 @@ public class MainMethod {
 				cmd = Command.valueOf(input[0]);
 				cmd.runCommand(input);
 			} catch (Exception e) {
-				System.out.println("Please provide valid command....");
+				System.out.println("Please provide valid command");
 			}
 		} while (!inputLine.equals("exit"));
 	}
