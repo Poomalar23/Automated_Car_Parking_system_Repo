@@ -1,0 +1,60 @@
+*********************************** INPUT COMMANDS FOR PARKING***********************************
+1. parking_slot {Slot Capacity}
+2. park_car {Car Nmuber} {Car Color}
+3. unPark_Car {Slot Number}
+4. details_of_the_car_parking
+5. registration_numbers_for_cars_with_colour {Car Color}
+6. slot_numbers_for_cars_with_colour {Car Color}
+7. slot_number_for_registration_number {Car Nmuber}
+parking_slot 5
+Created a parking lot with slotsNo : 5
+park_car Car01 White
+Allocated slot number : 1
+park_car Car02 Red
+Allocated slot number : 2
+park_car Car03 White
+Allocated slot number : 3
+park_car Car04 Black
+Allocated slot number : 4
+park_car Car05 White
+Allocated slot number : 5
+park_car Car06 Black
+No Empty Slot Available
+details_of_the_car_parking
+|Slot No.	|Registration No|	Colour	|
+=================================================
+|	1	|	Car01	|	White	|
+-------------------------------------------------
+|	2	|	Car02	|	Red	|
+-------------------------------------------------
+|	3	|	Car03	|	White	|
+-------------------------------------------------
+|	4	|	Car04	|	Black	|
+-------------------------------------------------
+|	5	|	Car05	|	White	|
+-------------------------------------------------
+registration_numbers_for_cars_with_colour White
+Car01, Car03, Car05, 
+slot_numbers_for_cars_with_colour Black
+4,
+slot_number_for_registration_number Car02
+[2]
+unPark_Car 3
+Slot number 3 is free 
+park_car Car07 Green
+Allocated slot number : 3
+details_of_the_car_parking
+|Slot No.	|Registration No|	Colour	|
+=================================================
+|	1	|	Car01	|	White	|
+-------------------------------------------------
+|	2	|	Car02	|	Red	|
+-------------------------------------------------
+|	3	|	Car07	|	Green	|
+-------------------------------------------------
+|	4	|	Car04	|	Black	|
+-------------------------------------------------
+|	5	|	Car05	|	White	|
+-------------------------------------------------
+exit
+
